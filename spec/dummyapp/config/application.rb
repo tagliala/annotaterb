@@ -1,5 +1,7 @@
 require_relative "boot"
 
+require "logger" # Ref: rails/rails#54260
+
 require "rails"
 # Pick the frameworks you want:
 require "active_model/railtie"
